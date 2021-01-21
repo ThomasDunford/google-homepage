@@ -1,0 +1,55 @@
+html {
+    align-items:center;
+    font-family:arial;
+    color:rgba(0, 0, 0, 0.87);
+}
+
+header { 
+    font-size:13px;
+}
+div {
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+}
+.right-nav {
+    display:flex;
+    position: relative;
+    float: right;
+    padding: 15px;
+}
+
+.abtst {
+    display:inline-block;
+    padding:15px;
+}
+
+main {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#logo {
+    height: 72px;
+    padding: 10;
+}
+
+#query {
+}
+
+.search-form {;
+}
+
+#right-footer {
+    display:flex;
+    float:right;
+}
