@@ -5,46 +5,49 @@
     <link rel="stylesheet" href="/styles/style.css">
     <title>Google</title>
 </head>
-<body>
-<header>
-    <div class="abtst">
-        <a id="about" href="">About</a>
-        <a id="store" href="">Store</a>
+<body
+    <div class="site-container">
+        <header class="header">
+            <nav class="nav">
+                <div class="left-nav">
+                    <a id="about" href="">About</a>
+                    <a id="store" href="">Store</a>
+                </div>
+                <div class="right-nav">
+                    <a id="gmail" href="">Gmail</a>
+                    <a id="images" href="">Images</a>
+                    <a id="apps" href="">Apps</a>
+                    <button id="sign-in">Sign In</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <img id="logo" src=/images/google-logo.png alt="Google Logo">
+            <div id="search-wrap">
+                <img id="search-icon" src="images/search.svg" alt="search icon">
+                <form class="search-form" id="search"></form>
+                <input class="search-form" type="search" id="query" placeholder="">
+                <a id="voice" href=""><img src="images/voice.svg"></a>
+            </br>
+            </div>
+            <a href="">
+                <button>Google Search</button></a>
+            <a href="">
+                <button>I'm Feeling Lucky</button>
+            </a>
+            <p>Stay At Home. Protect the NHS. Save Lives</p>
+        </main>
+        <footer>
+           <p>United Kingdom</p>
+           <a href="">Advertising</a>
+           <a href="">Business</a>
+           <a href="">How Search Works</a>
+           <a href=""><img id="leaf" src=images/carbon-neutral.png alt="leaf"> Carbon Neutral since 2007</a>
+           <div id="right-footer">
+           <a href="">Privacy</a>
+           <a href="">Terms</a>
+           <a href="">Settings</a>
+        </footer>
     </div>
-    <div class="right-nav">
-        <div id="gmail" href="">Gmail</div>
-        <div id="images" href="">Images</div>
-        <div id="apps" href="">Apps</div>
-        <div id="sign-in"><button>Sign In</button></div>
-    </div>
-</header>
-<main>
-    <img id="logo" src=/images/google-logo.png alt="Google Logo">
-    <div id="search-wrap">
-        <img id="search-icon" src="images/search.svg" alt="search icon">
-        <form class="search-form" id="search"></form>
-        <input class="search-form" type="search" id="query" placeholder="">
-        <a id="voice" href=""><img src="images/voice.svg"></a>
-    </br>
-    </div>
-    <a href="">
-        <button>Google Search</button></a>
-    <a href="">
-        <button>I'm Feeling Lucky</button>
-    </a>
-    <p>Stay At Home. Protect the NHS. Save Lives</p>
-</main>
-<footer>
-   <p>United Kingdom</p> </br>
-   <a href="">Advertising</a>
-   <a href="">Business</a>
-   <a href="">How Search Works</a>
-   <a href=""><img src=images/carbon-neutral.png alt="leaf"> Carbon Neutral since 2007</a>
-   <div id="right-footer">
-   <div>Privacy</div>
-   <div>Terms</div>
-   <div>Settings</div>
-   </div>
-</footer>
-</body>
+    </body>
 </html>
